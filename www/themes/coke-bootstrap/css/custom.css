@@ -1,0 +1,57 @@
+.media {
+	float:left;
+	margin: 0 !important;
+}
+
+.media:first-child {
+    margin-top: 15px;
+}
+
+.media img {
+	min-width: 100% !important;
+	max-width: 100% !important;
+	height: auto !important;
+}
+
+.col-md-6 {
+	width:50% !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+
+}
+
+#feedback {
+    font-size: 10px;
+    left: 0;
+    margin: 0 auto 0 -15px;
+    padding: 5px !important;
+    position: fixed !important;
+    text-transform: uppercase;
+    top: 55px;
+    width: 100%;
+    z-index: 1900;
+}
+
+
+#user-info input[type="text"], #user-info input[type="password"] {
+    border: 1px solid #eee !important;
+    margin-bottom: 20px !important;
+    margin-right: 1em !important;
+    padding: 1em !important;
+    width: 100% !important;
+}
+
+#app-content-wrapper {
+	position: absolute !important;
+	top: 50px !important;
+}
+
+.wp-video {
+	width: 100% !important;
+}
+
+video {
+    height: auto !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+}

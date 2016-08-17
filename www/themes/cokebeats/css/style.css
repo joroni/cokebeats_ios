@@ -1,0 +1,23 @@
+.ks-parallax-slider .swiper-slide {
+    box-sizing: border-box;
+    color: #fff;
+    padding: 40px 30px 60px !important; 
+}
+
+
+.ks-parallax-slider .swiper-slide-img{
+	margin-left:-40px;
+	margin-right: -40px;
+}
+.ks-parallax-slider .swiper-slide-img img, img {
+	min-width:100%;
+	max-width:100%;
+}
+
+div.swiper-slide.swiper-slide-active
+{
+   
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
