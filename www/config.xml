@@ -14,11 +14,11 @@
 	<gap:platform name="ios" />
 
 	<preference name="phonegap-version" value="3.7.0" />
-	<preference name="permissions" value="none"/>
+	<!--<preference name="permissions" value="none"/>-->
 
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="webviewbounce" value="false" />
-
+	<!--<feature name="permissions" value="none" />-->
 	<!-- PhoneGap plugin declaration -->
 	<plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<plugin name="cordova-plugin-network-information" source="npm" />
@@ -72,5 +72,24 @@
 	<gap:splash src="splashscreens/Default-Portrait@2x~iphone.png" gap:platform="ios" width="640" height="960" />
 	<gap:splash src="splashscreens/Default-Landscape~iphone.png" gap:platform="ios" width="480" height="320" />
 	<gap:splash src="splashscreens/Default-Portrait~iphone.png" gap:platform="ios" width="320" height="480" />
+	
+	
+	
+	 <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
 	
 </widget>
