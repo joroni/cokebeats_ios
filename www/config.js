@@ -6,7 +6,7 @@ define( function ( require ) {
 		app_slug : 'cps-enewsletter',
 		wp_ws_url : 'http://104.238.96.209/~newsimtms/wordpress/wp-appkit-api/cps-enewsletter',
 		wp_url : 'http://104.238.96.209/~newsimtms/wordpress',
-		theme : 'Coke-Bootstrap',
+		theme : 'Bootstrap',
 		version : '1.0',
 		app_title : 'Coke Beats',
 		app_platform : 'ios',
