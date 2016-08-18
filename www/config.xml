@@ -13,7 +13,7 @@
 
 	<gap:platform name="ios" />
 
-	<preference name="phonegap-version" value="3.4.0" />
+	<preference name="phonegap-version" value="3.7.0" />
 	<preference name="permissions" value="none"/>
 
 	<preference name="DisallowOverscroll" value="true" />
